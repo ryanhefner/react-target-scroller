@@ -1,6 +1,7 @@
 coverage
 examples
 tools
+src/index.test.js
 rollup.config.js
 *.sublime-project
 *.sublime-workspace
