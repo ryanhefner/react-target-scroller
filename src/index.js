@@ -192,6 +192,8 @@ TargetScroller.defaultProps = {
   ease: Easing.Quad.InOut,
   offset: 0,
   scrollingElement: 'document.scrollingElement',
+  onTweenComplete: () => {},
+  onTweenTick: () => {},
 };
 
 export default TargetScroller;
