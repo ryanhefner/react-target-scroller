@@ -375,6 +375,15 @@ describe('<TargetScroller />', () => {
       expect(document.scrollingElement.scrollTop).toBe(scrollPosition);
       component.unmount();
     }, 250);
-  })
+  });
+
+  test('renders nothing', () => {
+    component = mount(<TargetScroller />, {
+      attachTo: document.getElementById('root'),
+    });
+
+    expect(component.html()).toBe(null);
+    component.unmount();
+  });
 });
 
