@@ -81,7 +81,7 @@ class ExampleComponent extends Compnonent {
 
   render() {
     const {
-        scrollTarget,
+      scrollTarget,
     } = this.state;
 
     return (
