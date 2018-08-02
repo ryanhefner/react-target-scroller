@@ -19,11 +19,16 @@ class TargetScroller extends Component {
   }
 
   static getElement(target) {
-    return typeof target === 'string'
-      ? target === 'document.scrollingElement'
-        ? document.scrollingElement || document.body
-        : document.querySelector(target)
-      : target;
+    try {
+      return typeof target === 'string'
+        ? target === 'document.scrollingElement'
+          ? document.scrollingElement || document.body
+          : document.querySelector(target)
+        : target;
+    }
+    catch (err) {
+      return null;
+    }
   }
 
   constructor(props) {
