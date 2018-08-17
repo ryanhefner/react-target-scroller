@@ -88,10 +88,10 @@
       "src/**/*.js",
       "!src/**/*.test.js"
     ],
-    "testURL": "http://localhost",
     "setupFiles": [
       "<rootDir>/tools/jest-setup.js"
     ],
-    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js"
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "testURL": "http://localhost"
   }
 }
