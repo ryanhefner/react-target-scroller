@@ -1,6 +1,6 @@
 {
   "name": "react-target-scroller",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React component that scrolls smoothly to the target element passed in via props.",
   "license": "MIT",
   "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
