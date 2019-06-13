@@ -18,8 +18,12 @@ class TargetScroller extends Component {
     return isEqual(nextState, prevState) ? null : nextState;
   }
 
-  static getElement(target) {
+  static getElement(target, defaultTarget) {
     try {
+      if (target === null && defaultTarget) {
+        return defaultTarget;
+      }
+
       return typeof target === 'string'
         ? target === 'document.scrollingElement'
           ? document.scrollingElement || document.body
@@ -55,7 +59,7 @@ class TargetScroller extends Component {
 
     setTimeout(() => {
       this.setState({
-        scrollingElement: TargetScroller.getElement(scrollingElement),
+        scrollingElement: TargetScroller.getElement(scrollingElement, document.scrollingElement || document.body),
         targetElement: TargetScroller.getElement(target),
       });
     }, delay);
