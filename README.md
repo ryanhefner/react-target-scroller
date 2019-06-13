@@ -38,6 +38,8 @@ Below are the properties and callbacks that can be set on the component, along w
 
 * `ease:Func` - The easing function used to define the tween of the transition. `TargetScroller` uses [`tweenkle`](https://github.com/ryanhefner/tweenkle) and supports all the [easing equations](https://github.com/ryanhefner/tweenkle#easing) offered in that library, or you can write your own based on the ease spec. (default: `Quad.InOut`)
 
+* `offset:Number` - Number used to offset the scroll position. Useful for making sure fixed headers don’t cover up the target object.
+
 * `scrollingElement:[String || Element]` - The element that will be scrolled in order to reach the `target`. This is handy if you have a scrollable element in the page and want to target its children. (default: `'document.scrollingElement'`).
 
 * `target:[String || Element]` - The property that defines which element to scroll to. You can either supply an actual reference to the element, or a string that can target the element. (Note: If you supply a string, make sure it’s a string format that is supported by `querySelector`.)
