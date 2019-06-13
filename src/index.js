@@ -20,12 +20,8 @@ class TargetScroller extends Component {
 
   static getElement(target, defaultTarget) {
     try {
-      if (target === null && defaultTarget) {
-        return defaultTarget;
-      }
-
-      return typeof target === 'string'
-        ? target === 'document.scrollingElement'
+      return !!(!target || typeof target === 'string')
+        ? !!(!target || target === 'document.scrollingElement' || target === 'document.body')
           ? document.scrollingElement || document.body
           : document.querySelector(target)
         : target;
@@ -59,7 +55,7 @@ class TargetScroller extends Component {
 
     setTimeout(() => {
       this.setState({
-        scrollingElement: TargetScroller.getElement(scrollingElement, document.scrollingElement || document.body),
+        scrollingElement: TargetScroller.getElement(scrollingElement),
         targetElement: TargetScroller.getElement(target),
       });
     }, delay);
@@ -200,7 +196,6 @@ TargetScroller.defaultProps = {
   duration: 650,
   ease: Easing.Quad.InOut,
   offset: 0,
-  scrollingElement: 'document.scrollingElement',
   onTweenComplete: () => {},
   onTweenTick: () => {},
 };
