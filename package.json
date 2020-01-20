@@ -67,7 +67,7 @@
     "gzip-size": "^5.0.0",
     "jest": "^24.8.0",
     "jest-enzyme": "^7.1.0",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.0.1",
     "pretty-bytes": "^5.3.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
