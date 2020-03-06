@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/ryanhefner/react-target-scroller/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/react-target-scroller?branch=master)
 [![CircleCI](https://circleci.com/gh/ryanhefner/react-target-scroller.svg?style=shield)](https://circleci.com/gh/ryanhefner/react-target-scroller)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ryanhefner/react-target-scroller.svg)](https://greenkeeper.io/)
+
 
 React component that smoothly scrolls to the `target` element passed in via props.
 
