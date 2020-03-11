@@ -1,7 +1,7 @@
 # 🎯 react-target-scroller
 
 ![npm](https://img.shields.io/npm/v/react-target-scroller?style=flat-square)
-![npm](https://img.shields.io/npm/l/react-target-scroller?style=flat-square)
+![NPM](https://img.shields.io/npm/l/react-target-scroller?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/react-target-scroller?style=flat-square)
 ![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/react-target-scroller?style=flat-square)
 ![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/react-target-scroller?style=flat-square)
