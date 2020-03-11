@@ -1,9 +1,11 @@
 # 🎯 react-target-scroller
 
-[![npm version](https://badge.fury.io/js/react-target-scroller.svg)](https://badge.fury.io/js/react-target-scroller)
-[![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/ryanhefner/react-target-scroller/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/react-target-scroller?branch=master)
-[![CircleCI](https://circleci.com/gh/ryanhefner/react-target-scroller.svg?style=shield)](https://circleci.com/gh/ryanhefner/react-target-scroller)
+![npm](https://img.shields.io/npm/v/react-target-scroller?style=flat-square)
+![npm](https://img.shields.io/npm/v/react-target-scroller?style=flat-square)
+![npm](https://img.shields.io/npm/dt/react-target-scroller?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/react-target-scroller?style=flat-square)
+![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/react-target-scroller?style=flat-square)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/react-target-scroller?style=flat-square)
 
 
 React component that smoothly scrolls to the `target` element passed in via props.
